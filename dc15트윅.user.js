@@ -6,8 +6,8 @@
 // @match        *://*.dcinside.com/*
 // @grant        none
 // @license MIT
-// @downloadURL  https://raw.githubusercontent.com/dmk1005/dcjs/refs/heads/main/dc15%ED%8A%B8%EC%9C%85.js
-// @updateURL    https://raw.githubusercontent.com/dmk1005/dcjs/refs/heads/main/dc15%ED%8A%B8%EC%9C%85.js
+// @downloadURL  https://raw.githubusercontent.com/dmk1005/dcjs/refs/heads/main/dc15%ED%8A%B8%EC%9C%85.user.js
+// @updateURL    https://raw.githubusercontent.com/dmk1005/dcjs/refs/heads/main/dc15%ED%8A%B8%EC%9C%85.user.js
 // ==/UserScript==
 
 var create_fav_link = document.createElement('link');
@@ -458,4 +458,5 @@ updateBg();
     }
 
 })();
+
 
