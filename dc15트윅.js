@@ -5,8 +5,8 @@
 // @description  트윅
 // @match        *://*.dcinside.com/*
 // @grant        none
-// @downloadURL  https://kimdongshin.neocities.org/dc15%ED%8A%B8%EC%9C%85.js
-// @updateURL    https://kimdongshin.neocities.org/dc15%ED%8A%B8%EC%9C%85.js
+// @downloadURL  https://raw.githubusercontent.com/dmk1005/dcjs/refs/heads/main/dc15%ED%8A%B8%EC%9C%85.js
+// @updateURL    https://raw.githubusercontent.com/dmk1005/dcjs/refs/heads/main/dc15%ED%8A%B8%EC%9C%85.js
 // ==/UserScript==
 
 var create_fav_link = document.createElement('link');
@@ -455,4 +455,5 @@ updateBg();
 
         console.log("디시 메인 로고 변경 완료: " + dateStr);
     }
+
 })();
