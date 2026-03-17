@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Roblox Help 2011 js - Dual Different HTML
 // @namespace    http://tampermonkey.net/
-// @version      1
+// @version      1.1
 // @description  두 위치에 서로 다른 HTML을 삽입
 // @author       Your Name
 // @match        https://en.help.roblox.com/hc/*
@@ -17,9 +17,9 @@
 <div id="top-menu-background">
         <div id="top-menu">
           <ul id="green" style="width: 100%;">
-            <li class="clazz tab_home first active"><a href="https://en.help.roblox.com" class="tab">Home</a></li><li class="main tab_forums first"><a class="tab" href="/web/20110408085203mp_/http://roblox.zendesk.com/forums">Answers</a></li>
-              <li class="main clazz tab_new" style="display: none;"><a href="/web/20110408085203mp_/http://roblox.zendesk.com/anonymous_requests/new" class="tab">Submit a request</a></li>
-            <li class="main clazz tab_requests" style="display: none;"><a href="/web/20110408085203/http://roblox.zendesk.com/requests" class="tab">Check your existing requests</a></li>
+            <li class="clazz tab_home first active"><a href="https://en.help.roblox.com" class="tab">Home</a></li><li class="main tab_forums first"><a class="tab" href="https://web.archive.org/web/20110926235014mp_/http://roblox.zendesk.com/forums">Answers</a></li>
+              <li class="main clazz tab_new" style="display: none;"><a href="http://roblox.zendesk.com/anonymous_requests/new" class="tab">Submit a request</a></li>
+            <li class="main clazz tab_requests" style="display: none;"><a href="http://roblox.zendesk.com/requests" class="tab">Check your existing requests</a></li>
 
           </ul>
         </div>
